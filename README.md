@@ -1,4 +1,4 @@
-# Suraksha — Check First. Pay Safe.
+# Suraksha — Lies? We Recognize.
 
 Suraksha is an Android application intended to help people make safer digital-payment decisions.
 
