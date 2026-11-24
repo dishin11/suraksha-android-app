@@ -1,43 +1,60 @@
 # Suraksha — Check First. Pay Safe.
 
-Suraksha is an Android application focused on helping people make safer digital-payment decisions.
+Suraksha is an Android application intended to help people make safer digital-payment decisions.
 
-## Project overview
+> **Project status:** The public GitHub repository is available. The Android APK should be downloaded from the Releases page once a release asset has been published. The original editable Android source code is not currently included in this repository.
 
-The app's bundled interface includes material related to:
+## About the project
+
+The supplied APK contains bundled interface resources related to:
+
 - Digital-payment and UPI safety guidance
 - Safety checks and advisory information
 - Shopkeeper and field-use tools
 - Learning/help content and a guided tour
-- QR-reading and language-support resources
-- Offline-support resources
+- QR-reading resources
+- Language support and offline-use resources
 
-These are descriptions of content found in the supplied APK; individual workflows and integrations should be tested before being treated as verified features.
+These items are based on inspection of the APK's bundled assets. They should not be treated as confirmation that every workflow or integration has been fully tested.
 
-## Getting the app
+## Download
 
-An APK release has not yet been attached to this repository. When a tested build is published, add it to the repository's **Releases** page and link it here.
+**[View Suraksha releases](https://github.com/dishin11/suraksha-android-app/releases)**
 
-## Repository contents
+When the APK release is published, download the `.apk` asset from the latest release. On an Android device, install only a build you trust. Android may ask you to allow installation from your browser or file manager.
 
-This repository is being prepared for project documentation and future source-code contributions. The supplied APK is a compiled application package, not the original editable Android source project.
+## Repository
 
-## Testing
+This is the public repository for the Suraksha project:
 
-Before publishing a build, test installation and the main user flows on supported Android versions and record:
+- Repository: https://github.com/dishin11/suraksha-android-app
+- Default branch: `main`
+- Releases: https://github.com/dishin11/suraksha-android-app/releases
+
+At present, this repository contains project documentation. The supplied APK is a compiled application package; it is not the original editable Android source project.
+
+## Testing checklist
+
+Before describing a build as production-ready, test it on supported Android devices and record:
+
 - Device model and Android version
-- Installation result
-- Features and flows tested
-- Known issues
+- Installation and launch result
+- Main user flows tested
+- Any permissions requested
+- Known issues and limitations
+
+Do not rely on the app as the sole protection against payment fraud. Verify payment details independently.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+
+A GitHub collaborator invitation does not by itself make someone a code contributor. Contributors should make genuine, reviewable changes through commits or merged pull requests.
 
 ## Security
 
-Please see [SECURITY.md](SECURITY.md) for responsible vulnerability reporting.
+For responsible vulnerability reporting, see [SECURITY.md](SECURITY.md).
 
 ## License
 
-No license has been added yet. Unless a license is added, all rights remain with the copyright holder and reuse is not automatically permitted.
+No license has been added yet. Unless and until a license is added, all rights remain with the copyright holder and reuse is not automatically permitted.
